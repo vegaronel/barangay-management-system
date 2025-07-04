@@ -14,7 +14,7 @@ function Login() {
     e.preventDefault();
     // handle login logic here
     const submitData = async() => {
-      const response = await fetch("http://localhost:3000/login", {
+      const response = await fetch("https://barangay-management-system-j15g.vercel.app/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
